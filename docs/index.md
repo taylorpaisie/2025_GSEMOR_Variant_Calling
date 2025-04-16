@@ -20,13 +20,9 @@ This guide will walk you through the process of identifying genetic variants fro
 
 ---
 
-## 🛠 Requirements
+## 🛠 Gitpod link for Tutorial
 
-Make sure you have the following tools installed:
-- `bwa`
-- `samtools`
-- `gatk`
-- `fastqc`
+[![Open with Gitpod](https://img.shields.io/badge/Open%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/taylorpaisie/VEME_2024_NGS_Variant_Calling)
 
 Happy variant hunting! 🧬✨
 
