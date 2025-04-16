@@ -13,7 +13,7 @@ This guide will walk you through the process of identifying genetic variants fro
 
 ## 📚 Tutorial Overview
 
-1. [Introduction](./_pages/step1.md)
+1. [Step up & Introduction](./_pages/step1.md)
 2. [Read Alignment](./_pages/step2.md)
 3. [Variant Calling](./_pages/step3.md)
 4. [Filtering & Analysis](./_pages/step4.md)
