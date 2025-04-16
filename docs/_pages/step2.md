@@ -123,7 +123,7 @@ application/gzip
 
 
 <figure>
-    <img src="images/fastqc-stoplight.png" width="450" height="400">
+    <img src="../images/fastqc-stoplight.png" width="450" height="400">
     <figcaption>FastQC Spotlight Visualization</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ Although if most or all your stop-light icons are red, then you probably have a 
 
 
 <figure>
-    <img src="images/untrimmed_fastqc_picture.png" width="450" height="300">
+    <img src="../images/untrimmed_fastqc_picture.png" width="450" height="300">
     <figcaption>FastQC output of SRR1972917_1.fastq.gz</figcaption>
 </figure>
 
@@ -155,14 +155,14 @@ The three-colored bands illustrate the typical labels that we assign to these me
 
 
 <figure>
-    <img src="images/fastqc_seq_length_histo.png" width="450" height="300">
+    <img src="../images/fastqc_seq_length_histo.png" width="450" height="300">
     <figcaption>Sequence lengths histogram of SRR1972917_1.fastq.gz</figcaption>
 </figure>
 
 The sequence length distribution shows how many sequences of each length the data contains. For fixed read length instruments, like the Illumina sequencer, all read lengths are the same. For long read technologies like the PacBio and MinION, the distribution can be a lot more varied.
 
 <figure>
-    <img src="images/fastqc-quality-distribution.png" width="450" height="300">
+    <img src="../images/fastqc-quality-distribution.png" width="450" height="300">
     <figcaption>Sequence quality histogram of SRR1972917_1.fastq.gz</figcaption>
 </figure>
 
