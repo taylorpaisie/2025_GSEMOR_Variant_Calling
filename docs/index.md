@@ -4,9 +4,9 @@ title: Variant Calling Tutorial
 nav_order: 1
 ---
 
-# 🧬 2025 GSEMOR Variant Calling Workshop
+# 🧬 2025 GSEMOR Workshop Variant Calling Tutorial
 
-Welcome to the official tutorial for the 2025 GSEMOR Variant Calling Workshop!  
+Welcome to the official tutorial for the 2025 GSEMOR Workshop Variant Calling Tutorial!  
 This guide will walk you through the process of identifying genetic variants from raw sequencing data.
 
 ---
