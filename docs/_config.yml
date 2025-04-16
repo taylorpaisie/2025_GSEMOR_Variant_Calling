@@ -6,6 +6,12 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
+# Output files in custom directories
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
 # URL setup for GitHub Pages
 baseurl: "/2025_GSEMOR_Variant_Calling" 
 url: "https://taylorpaisie.github.io"

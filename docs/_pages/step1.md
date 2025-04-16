@@ -3,6 +3,7 @@ layout: default
 title: "1. Setup & Introduction"
 nav_order: 1
 parent: Tutorial
+permalink: /step1/
 ---
 
 # Step 1: Setup & Introduction
