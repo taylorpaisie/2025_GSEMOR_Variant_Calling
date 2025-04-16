@@ -2,21 +2,17 @@ title: "2025 GSEMOR Variant Calling"
 description: "Tutorial for the GSEMOR Workshop"
 remote_theme: just-the-docs/just-the-docs
 
-# Enable remote themes plugin
 plugins:
   - jekyll-remote-theme
 
-# Output files in custom directories
 collections:
   pages:
     output: true
     permalink: /:name/
 
-# URL setup for GitHub Pages
 baseurl: "/2025_GSEMOR_Variant_Calling" 
 url: "https://taylorpaisie.github.io"
 
-# Navigation options
 search_enabled: true
 nav_sort: case_insensitive
 
@@ -26,3 +22,7 @@ aux_links:
 
 back_to_top: true
 back_to_top_text: "Back to top"
+
+# 👇 THIS IS THE KEY LINE
+include:
+  - images
