@@ -1,0 +1,16 @@
+name: variant_calling
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - fastqc
+  - trimmomatic
+  - bwa
+  - samtools
+  - bcftools
+
