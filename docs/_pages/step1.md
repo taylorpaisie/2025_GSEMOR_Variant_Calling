@@ -17,7 +17,7 @@ This tutorial will walk you through the setup and background information necessa
 Below is the structure of the directories used in this variant calling tutorial:
 
 <figure markdown>
-    <img src="images/variant_calling_directories.svg" width="400">
+    <img src="../images/variant_calling_directories.svg" width="400">
   <figcaption>Structure of the directories for the variant calling tutorial</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Below is the structure of the directories used in this variant calling tutorial:
 Keep this reference handy as you go through the tutorial:
 
 <figure markdown>
-  <img src="images/command-line-cheat-sheet-large.png" height="800">
+  <img src="../images/command-line-cheat-sheet-large.png" height="800">
   <figcaption>Variant Calling Workflow Overview</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Variant calling is the process of identifying and cataloging the differences bet
 4. **Filter** the resulting variants based on desired characteristics
 
 <figure markdown>
-  <img src="images/variant_calling_steps.png" width="230" height="300">
+  <img src="../images/variant_calling_steps.png" width="230" height="300">
   <figcaption>Overview of the Variant Calling Workflow</figcaption>
 </figure>
 
