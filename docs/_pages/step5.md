@@ -45,3 +45,8 @@ permalink: /step5/
 <figure>
     <img src="../images/vcf_format3.png" width="700">
 </figure>
+
+
+---
+
+👉 Ready? Continue to [Step 6 - Visualizing the Results](./step6.md)

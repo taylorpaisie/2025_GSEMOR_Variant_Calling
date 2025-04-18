@@ -16,7 +16,7 @@ This guide will walk you through the process of identifying genetic variants fro
 1. [Step up & Introduction](./_pages/step1.md)
 2. [Assessing Read Quality](./_pages/step2.md)
 3. [Trimming and Filtering](./_pages/step3.md)
-4. [Reference Based Mapping ](./_pages/step4.md)
+4. [Reference Based Mapping](./_pages/step4.md)
 5. [Variant Calling](./_pages/step5.md)
 6. [Visualizing the Results](./_pages/step6.md)
 7. [Automating a Variant Calling Workflow](./_pages/step7.md)

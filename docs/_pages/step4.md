@@ -113,3 +113,8 @@ The CIGAR representation is a neat concept, alas it was developed for short and 
 There are also different variants of CIGAR. The “default” CIGAR encoding describes both the match and mismatch in the same way, with an M. There are some unfortunate rationales and explanations for having adopted this choice - one that complicates analysis even more.
 
 The extended CIGAR encoding adopted by others uses the symbols of = and X to indicate matches and mismatches.
+
+
+---
+
+👉 Ready? Continue to [Step 5 - Variant Calling](./step5.md)

@@ -110,3 +110,7 @@ $ for infile in *_1.fastq.gz
 
 4. Lets rerun FastQC on the trimmed fastq files  
     `$ fastqc *trim.fastq.gz`
+
+---
+
+👉 Ready? Continue to [Step 4 - Reference Based Mapping](../step4.md)

@@ -167,3 +167,7 @@ The sequence length distribution shows how many sequences of each length the dat
 </figure>
 
 Another way to visualize data quality is to generate histograms of the average qualities. The horizontal scales are the quality scores; the vertical axis indicates the number of reads of that quality.
+
+---
+
+👉 Ready? Continue to [Step 3 - Trimming and Filtering](../step3.md)
