@@ -170,4 +170,4 @@ Another way to visualize data quality is to generate histograms of the average q
 
 ---
 
-👉 Ready? Continue to [Step 3 - Trimming and Filtering](../step3.md)
+👉 Ready? Continue to [Step 3 - Trimming and Filtering](./step3.md/)
