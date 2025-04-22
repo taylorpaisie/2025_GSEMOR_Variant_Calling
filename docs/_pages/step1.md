@@ -64,4 +64,4 @@ Throughout this tutorial, we’ll define key terms to help you navigate the work
 
 ---
 
-👉 Ready? Continue to [Step 2 - Assessing Read Quality](../step2/)
+👉 Ready? Continue to [Step 2 - Assessing Read Quality]({{ "/step2/" | relative_url }})
