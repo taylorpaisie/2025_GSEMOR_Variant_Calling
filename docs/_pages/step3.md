@@ -113,4 +113,4 @@ $ for infile in *_1.fastq.gz
 
 ---
 
-👉 Ready? Continue to [Step 4 - Reference Based Mapping](../step4.md)
+👉 Ready? Continue to [Step 4 - Reference Based Mapping]({{ "/step4/" | relative_url }})

@@ -56,6 +56,6 @@ permalink: /step6/
     * Zoom in to inspect variants you see in your filtered VCF file to become more familiar with IGV  
     * See how quality information corresponds to alignment information at those loci
 
-    ---
+---
 
-👉 Ready? Continue to [Step 7 - Automating a Variant Calling Workflow](./step6.md)
+👉 Ready? Continue to [Step 7 - Automating a Variant Calling Workflow]({{ "/step7/" | relative_url }})

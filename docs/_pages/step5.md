@@ -49,4 +49,4 @@ permalink: /step5/
 
 ---
 
-👉 Ready? Continue to [Step 6 - Visualizing the Results](./step6.md)
+👉 Ready? Continue to [Step 6 - Visualizing the Results]({{ "/step6/" | relative_url }})

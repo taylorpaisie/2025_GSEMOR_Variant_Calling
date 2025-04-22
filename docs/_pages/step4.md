@@ -117,4 +117,4 @@ The extended CIGAR encoding adopted by others uses the symbols of = and X to ind
 
 ---
 
-👉 Ready? Continue to [Step 5 - Variant Calling](./step5.md)
+👉 Ready? Continue to [Step 5 - Variant Calling]({{ "/step5/" | relative_url }})
