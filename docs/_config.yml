@@ -31,6 +31,8 @@ aux_links:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-# 👇 THIS IS THE KEY LINE
+
 include:
   - images
+  - _pages
+
