@@ -17,9 +17,9 @@ permalink: /step5/
 
    ```
    bcftools mpileup -O b \
-   -o results/bcf/SRR1972917_raw.bcf \
-   -f data/ref_genome/KJ660346.2.fasta \
-   results/bam/SRR1972917.aligned.sorted.bam
+      -o results/bcf/SRR1972917_raw.bcf \
+      -f data/ref_genome/KJ660346.2.fasta \
+      results/bam/SRR1972917.aligned.sorted.bam
    ```
 
 2. Detect the single nucleotide variants (SNVs)  
@@ -27,9 +27,9 @@ permalink: /step5/
 
     ```
     bcftools call \
-    --ploidy 1 -m -v \
-    -o results/vcf/SRR1972917_variants.vcf \
-    results/bcf/SRR1972917_raw.bcf 
+       --ploidy 1 -m -v \
+       -o results/vcf/SRR1972917_variants.vcf \
+       results/bcf/SRR1972917_raw.bcf 
     ```
 
 3. Filter and report the SNV variants in variant calling format (VCF)
@@ -37,8 +37,8 @@ permalink: /step5/
 
     ```
     vcfutils.pl varFilter \
-    results/vcf/SRR1972917_variants.vcf \
-    > results/vcf/SRR1972917_final_variants.vcf
+        results/vcf/SRR1972917_variants.vcf \
+        > results/vcf/SRR1972917_final_variants.vcf
     ```
 
 4. Explore the VCF format:  
