@@ -72,11 +72,10 @@ permalink: /step4/
 7. Sort BAM file by coordinates  
     `$ samtools sort -o results/bam/SRR1972917.aligned.sorted.bam results/bam/SRR1972917.aligned.bam`   
 
-    * Lets take a look at the statistics in our BAM file:  
-    `$ samtools flagstat results/bam/SRR1972917.aligned.sorted.bam`  
+Lets take a look at the statistics in our BAM file:  
+`$ samtools flagstat results/bam/SRR1972917.aligned.sorted.bam`  
 
 Now lets view the header of our BAM file:  
-
 `$ samtools view -H results/bam/SRR1972917.aligned.sorted.bam`
 
 ```
