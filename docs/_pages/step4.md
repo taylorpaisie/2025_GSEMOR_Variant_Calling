@@ -22,8 +22,13 @@ permalink: /step4/
 
     `$ mkdir -p ~/variant_calling/data/ref_genome`  
     `$ cd ~/variant_calling/data/ref_genome`  
-    `$ wget -nv https://raw.githubusercontent.com/taylorpaisie/VEME_2024_NGS_Variant_Calling/main/KJ660346.2.fasta -O KJ660346.2.fasta`  
-    
+
+    ```
+    wget -nv \
+    https://raw.githubusercontent.com/taylorpaisie/VEME_2024_NGS_Variant_Calling/main/KJ660346.2.fasta \
+    -O KJ660346.2.fasta
+    ```
+
 
 3. Create directories for the results that will be generated as part of this workflow    
     * We can do this in a single line of code, because mkdir can accept multiple new directory names as input  
@@ -39,8 +44,16 @@ permalink: /step4/
 
 5. Align reads to the reference genome  
     * The alignment process consists of choosing an appropriate reference genome to map our reads against and then deciding on an aligner  
-    * We will use the BWA-MEM algorithm, which is the latest and is generally recommended for high-quality queries as it is faster and more accurate  
-    `$ bwa mem data/ref_genome/KJ660346.2.fasta data/trimmed_fastq/SRR1972917_1.trim.fastq.gz data/trimmed_fastq/SRR1972917_2.trim.fastq.gz > results/sam/SRR1972917.aligned.sam`  
+    * We will use the BWA-MEM algorithm, which is the latest and is generally recommended for high-quality queries as it is faster and more accurate 
+    
+    ```
+    bwa mem \
+    data/ref_genome/KJ660346.2.fasta \
+    data/trimmed_fastq/SRR1972917_1.trim.fastq.gz \
+    data/trimmed_fastq/SRR1972917_2.trim.fastq.gz \
+    > results/sam/SRR1972917.aligned.sam 
+    ```
+
 
     * The SAM file, is a tab-delimited text file that contains information for each individual read and its alignment to the genome  
     * The compressed binary version of SAM is called a BAM file  

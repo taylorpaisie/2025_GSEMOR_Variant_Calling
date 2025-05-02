@@ -58,8 +58,15 @@ $ trimmomatic
 
     * Run Trimmomatic:  
 
-    `$ trimmomatic PE SRR1972917_1.fastq.gz SRR1972917_2.fastq.gz SRR1972917_1.trim.fastq.gz SRR1972917_1un.trim.fastq.gz SRR1972917_2.trim.fastq.gz SRR1972917_2un.trim.fastq.gz SLIDINGWINDOW:4:20 MINLEN:25 ILLUMINACLIP:NexteraPE-PE.fa:2:40:15`  
-    
+    ```
+    trimmomatic PE \
+    SRR1972917_1.fastq.gz SRR1972917_2.fastq.gz \
+    SRR1972917_1.trim.fastq.gz SRR1972917_1un.trim.fastq.gz \
+    SRR1972917_2.trim.fastq.gz SRR1972917_2un.trim.fastq.gz \
+    SLIDINGWINDOW:4:20 MINLEN:25 ILLUMINACLIP:NexteraPE-PE.fa:2:40:15
+    ```
+
+
     * Output:  
 
     ```
@@ -75,7 +82,6 @@ $ trimmomatic
     Quality encoding detected as phred33
     Input Read Pairs: 4377867 Both Surviving: 1241328 (28.35%) Forward Only Surviving: 2133670 (48.74%) Reverse Only Surviving: 18680 (0.43%) Dropped: 984189 (22.48%)
     TrimmomaticPE: Completed successfully
-
     ```
 
 
@@ -86,16 +92,16 @@ $ trimmomatic
   
 2. Running a for loop on all fastq files  
 
-```
-$ for infile in *_1.fastq.gz
-    do
-        base=$(basename ${infile} _1.fastq.gz)
-        trimmomatic PE ${infile} ${base}_2.fastq.gz \
-        ${base}_1.trim.fastq.gz ${base}_1un.trim.fastq.gz \
-        ${base}_2.trim.fastq.gz ${base}_2un.trim.fastq.gz \
-        SLIDINGWINDOW:4:20 MINLEN:25 ILLUMINACLIP:NexteraPE-PE.fa:2:40:15
-    done
-```
+    ```
+    for infile in *_1.fastq.gz
+        do
+            base=$(basename ${infile} _1.fastq.gz)
+            trimmomatic PE ${infile} ${base}_2.fastq.gz \
+            ${base}_1.trim.fastq.gz ${base}_1un.trim.fastq.gz \
+            ${base}_2.trim.fastq.gz ${base}_2un.trim.fastq.gz \
+            SLIDINGWINDOW:4:20 MINLEN:25 ILLUMINACLIP:NexteraPE-PE.fa:2:40:15
+        done
+    ```
 
 
 
