@@ -21,7 +21,7 @@ permalink: /step7/
 #### Running Trimmomatic on all samples:
 
 ```
-$ for infile in *_1.fastq.gz
+for infile in *_1.fastq.gz
     do
         base=$(basename ${infile} _1.fastq.gz)  
         trimmomatic PE ${infile} ${base}_2.fastq.gz  
