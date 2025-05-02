@@ -111,8 +111,9 @@ application/gzip
    * The .zip file extension indicates that this is actually a compressed set of multiple output files   
    * The .html file is a stable webpage displaying the summary report for each of our samples  
    * We want to keep our data files and our results files separate, so we will move these output files into a new directory within our results/ directory  
-   * We can open these html files in our gitpod environment by running:
+   * We can open these html files in our gitpod environment by running:  
    `$ python3 -m http.server 8080`
+   
    * Then selecting "Open Preview" and a directory listing for the files will come up
 
     
@@ -123,7 +124,6 @@ application/gzip
 `$ cd ~/variant_calling/results/fastqc_untrimmed_reads`  
 
 ### We can now open the .html file to view the FastQC results: 
-
 
 
 <figure>
