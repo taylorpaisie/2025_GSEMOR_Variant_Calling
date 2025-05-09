@@ -54,9 +54,9 @@ Variant calling is the process of identifying and cataloging the differences bet
   <figcaption>Overview of the Variant Calling Workflow</figcaption>
 </figure>
 
+
 <figure markdown>
   <img src="../images/soap_meme.jpg" width="300" height="250">
-  <figcaption>Overview of the Variant Calling Workflow</figcaption>
 </figure>
 
 ---
